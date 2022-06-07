@@ -28,5 +28,19 @@ Quarantine helped me open the door to the __IT-world__, and now my friend, who g
    *for work with SASS*
 - __My brain__<br/>
    *high level:)*
-
-
+   
+   ### My Code
+   #### [Kata](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
+   ```js 
+   function openOrSenior(data) {
+   return data.map(i => {
+    if (i[0] < 55) {
+      return "Open"
+    } else if (i[0] >= 55 && i[1] <= 7){
+      return "Open"
+    }
+    return "Senior"
+  })
+  }
+  ```
+  

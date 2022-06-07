@@ -48,4 +48,13 @@ Quarantine helped me open the door to the __IT-world__, and now my friend, who g
 
 Here I will add links to my work. I hope these get into my future portfolio.
 
+first work:[My CV]()
+
 ---
+
+### My Education
+
+1. [Freelanser LifeStyle](https://www.youtube.com/c/FreelancerLifeStyle)
+2. [Hexlet](https://ru.hexlet.io/my)
+3. [Code.Basics](https://ru.code-basics.com/languages/javascript/lessons/logical-operators#editor)
+

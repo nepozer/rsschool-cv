@@ -13,20 +13,20 @@ My name is Maria and I am 20 years old. I come from a country that is not on the
 Quarantine helped me open the door to the __IT-world__, and now my friend, who got a job in an IT-company and works remotely, serves as my motivation. He did it - I can do it too!
 
 ### My skills
-- __HTML__ 
+- __HTML__ <br/>
    *BAM-methodology;*  
-- __CSS(SASS)__
+- __CSS(SASS)__<br/>
    *Adaptive; Flexbox; Grid layout;*
-- __Git__
-- __Figma__
+- __Git__<br/>
+- __Figma__<br/>
    *work with layout*
-- __JavaScript__
+- __JavaScript__<br/>
    *Fundamental skills;*
-- __Avocode__
+- __Avocode__<br/>
    *Pixel Perfect Layout*
-- __Prepros__
+- __Prepros__<br/>
    *for work with SASS*
-- __My brain__
+- __My brain__<br/>
    *high level:)*
 
 

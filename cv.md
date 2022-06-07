@@ -1,6 +1,6 @@
 # CV Maria Sirbu
 
-## Contacts  |       |
+Contacts  |       |
 ---|---|
 messengers | +420773513294
 phone | +37377976466

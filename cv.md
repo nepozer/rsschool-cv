@@ -26,12 +26,18 @@ Quarantine helped me open the door to the __IT-world__, and now my friend, who g
    *work with layout*
 - __JavaScript__<br/>
    *Fundamental skills;*
+- __React__<br/>
+   *I can do something;*
 - __Avocode__<br/>
-   *Pixel Perfect Layout*
-- __Prepros__<br/>
-   *for work with SASS*
+   *Pixel Perfect Layout;*
+- __Golang__<br/>
+   *Just starting;*
+- __SQL__<br/>
+   *Can write some queries);* 
+- __Oracle APEX__<br/>
+   *A little bit;* 
 - __My brain__<br/>
-   *high level:)*
+   *High level:);*
   
   ---
   ### My links

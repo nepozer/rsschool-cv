@@ -41,8 +41,8 @@ Quarantine helped me open the door to the __IT-world__, and now my friend, who g
   
   ---
   ### My links
-#### [Codepen] (https://codepen.io/mashinka)
-#### [Codewars] (https://www.codewars.com/users/nepozer)
+#### [Codepen](https://codepen.io/mashinka)
+#### [Codewars](https://www.codewars.com/users/nepozer)
   ---
   
    ### My Code

@@ -34,6 +34,10 @@ Quarantine helped me open the door to the __IT-world__, and now my friend, who g
    *high level:)*
   
   ---
+  ### My links
+#### [Codepen] (https://codepen.io/mashinka)
+#### [Codewars] (https://www.codewars.com/users/nepozer)
+  ---
   
    ### My Code
    #### [Kata](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)

@@ -1,0 +1,12 @@
+@import './fonts';
+@import 'vendor/tailwind';
+@import './variables';
+@import'./menu';
+
+.site-wrapper {
+    background: $main-bg;
+}
+
+.wrapper {
+    @apply max-w-[1100px] w-full mx-auto;
+}

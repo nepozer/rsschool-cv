@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans:wght@300;400;500&display=swap";/*
+@import"https://fonts.googleapis.com/css2?family=Arizonia&family=Lora:ital,wght@0,700;1,700&family=Manrope&display=swap";/*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -357,12 +357,16 @@ video {
   position: fixed;
   top: 1.25rem;
   right: 1.25rem;
-  z-index: 10;
+  z-index: 50;
   display: flex;
-  height: 26px;
-  width: 26px;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
   align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 17 127 / var(--tw-bg-opacity));
 }@media (min-width: 1024px){.menu__btn{
     display: none;
   }
@@ -370,7 +374,7 @@ video {
   position: absolute;
   display: block;
   height: 0.125rem;
-  width: 100%;
+  width: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 251 255 / var(--tw-bg-opacity));
   transition-property: transform;
@@ -378,10 +382,10 @@ video {
   transition-duration: 200ms;
 }.menu__btn>span::before{
   position: absolute;
-  top: -0.5rem;
+  top: -0.625rem;
   display: block;
   height: 0.125rem;
-  width: 100%;
+  width: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 251 255 / var(--tw-bg-opacity));
   transition-property: transform;
@@ -390,10 +394,10 @@ video {
   transition-duration: 300ms;
 }.menu__btn>span::after{
   position: absolute;
-  top: 0.5rem;
+  top: 0.625rem;
   display: block;
   height: 0.125rem;
-  width: 100%;
+  width: 2rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 251 255 / var(--tw-bg-opacity));
   transition-property: transform;
@@ -403,23 +407,7 @@ video {
 }@media (min-width: 1024px){.menu__btn>span{
     display: none;
   }
-}.menu__box{
-  visibility: hidden;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  display: block;
-  width: 100%;
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 17 127 / var(--tw-bg-opacity));
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
-}@media (min-width: 1024px){.menu__box{
+}.menu__box{box-shadow:1px 0px 6px #1a0039;visibility: hidden;position: fixed;top: 0px;right: 0px;z-index: 40;display: block;width: 100%;--tw-bg-opacity: 1;background-color: rgb(153 17 127 / var(--tw-bg-opacity));padding-top: 4rem;padding-bottom: 4rem;padding-left: 1.25rem;padding-right: 1.25rem;transition-property: all;transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);transition-duration: 200ms}@media (min-width: 1024px){.menu__box{
     visibility: visible;
     position: static;
     display: flex;
@@ -429,8 +417,11 @@ video {
     background-color: rgb(34 0 76 / var(--tw-bg-opacity));
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
-}.menu__box{box-shadow:1px 0px 6px #1a0039}.menu__item{
+}.menu__item{
   display: block;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -443,9 +434,129 @@ video {
   text-decoration-line: underline;
   text-decoration-color: #fffbff;
   text-underline-offset: 4px;
-}.site-wrapper{background:#22004c}.wrapper{
+}.site-wrapper{background:#22004c;font-family:"Manrope",sans-serif}.ring{
+  position: absolute;
+  border-radius: 9999px;
+  border-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 251 255 / var(--tw-border-opacity));
+}.ring--sm{
+  height: 5rem;
+  width: 5rem;
+}.ring--lg{
+  height: 10rem;
+  width: 10rem;
+}.ring--bottom{
+  bottom: -1.75rem;
+  right: 1.25rem;
+}@media (min-width: 1024px){.ring--bottom{
+    bottom: 0.625rem;
+  }
+}.ring--top{
+  top: 0px;
+  left: 2.5rem;
+}@media (min-width: 1024px){.ring--top{
+    top: 1.25rem;
+  }
+}.wrapper{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
+}.section-block{
+  position: relative;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}.section-block__title{font-family:"Lora",serif;position: relative;bottom: 0px;margin-bottom: 1.75rem;font-size: 3rem;line-height: 1;--tw-text-opacity: 1;color: rgb(255 251 255 / var(--tw-text-opacity))}.section-block__title::after{
+  position: absolute;
+  height: 0.125rem;
+  width: 100vw;
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 146 221 / var(--tw-bg-opacity));
+}@media (min-width: 1024px){.section-block__title{
+    font-size: 6rem;
+    line-height: 1;
+  }
+}.section-block__txt{font-family:"Manrope",sans-serif;font-size: 1.25rem;line-height: 1.75rem;--tw-text-opacity: 1;color: rgb(180 146 221 / var(--tw-text-opacity))}.section-block__txt p{
+  padding-bottom: 1.25rem;
+}.section-block__links{
+  display: flex;
+}.section-block__links a{
+  max-width: 40px;
+}.start-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}@media (min-width: 1024px){.start-block{
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}.my-info{
+  text-align: center;
+}@media (min-width: 1024px){.my-info{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: end;
+  }
+}.my-info>h1{
+  margin-bottom: 1.5rem;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 700;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(255 251 255 / var(--tw-text-opacity));
+}@media (min-width: 768px){.my-info>h1{
+    white-space: nowrap;
+  }
+}@media (min-width: 1280px){.my-info>h1{
+    font-size: 8rem;
+    line-height: 1;
+  }
+}.my-info>h1{font-family:"Lora",serif}.my-info>span{
+  font-size: 4.5rem;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(241 33 155 / var(--tw-text-opacity));font-family:"Arizonia",cursive;
+}.my-foto{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 33 155 / var(--tw-bg-opacity));
+}.my-foto>img{
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 9999px;
+  padding: 1rem;
+}@media (min-width: 1024px){.my-foto>img{
+    max-height: 500px;
+    max-width: 500px;
+    padding: 1.25rem;
+  }
+}.content-block{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}@media (min-width: 1024px){.content-block{
+    padding-bottom: 5rem;
+  }
+}.footer{
+  display: flex;
+}.footer a{
+  max-width: 40px;
 }

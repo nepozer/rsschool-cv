@@ -10,13 +10,15 @@
 
 <body>
     <div class="site-wrapper">
-        <header>
+
+        <header class="wrapper">
             <nav class="menu">
                 <input id="menu__toggle" type="checkbox" />
                 <label class="menu__btn" for="menu__toggle">
                     <span></span>
                 </label>
-                <ul class="menu__box">
+                
+                     <ul class="menu__box">
                     <li><a class="menu__item" href="#about">about</a></li>
                     <li><a class="menu__item" href="#skills">skills</a></li>
                     <li><a class="menu__item" href="#education">education</a></li>
@@ -24,27 +26,106 @@
                     <li><a class="menu__item" href="#languages">languages</a></li>
                     <li><a class="menu__item" href="#get-in-touch">get in touch</a></li>
                 </ul>
+               
+               
 
             </nav>
         </header>
+
         <main>
-
             <section class="section-block">
-                <div class="wrapper">
-
+                <div class="start-block wrapper">
+                    <div class="my-info">
+                        <h1>Maria Sirbu</h1>
+                        <span>frontend developer</span>
+                    </div>
+                    <div class="my-foto">
+                        <div class="ring ring--sm ring--top"></div>
+                        <div class="ring ring--lg ring--bottom"></div>
+                        <img src="./imges/avatar.jpg" alt="my-avatar" width="90%">
+                    </div>
                 </div>
+            </section>
 
-
+            <section id="about" class="section-block">
+                <div class="content-block wrapper">
+                    <h2 class="section-block__title">About me</h2>
+                    <div class="section-block__txt">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!
+                            Autem cupiditate, temporibus dolore accusantium dicta suscipit sapiente odio nobis eveniet.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!
+                            Autem cupiditate, temporibus dolore accusantium dicta suscipit sapiente odio nobis eveniet? Cum, ducimus
+                            aperiam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!</p>
+                    </div>
+                </div>
+            
+            
+            </section>
+            <section id="skills" class="section-block">
 
             </section>
-            <section id="about"></section>
-            <section id="skills"></section>
-            <section id="education"></section>
-            <section id="experience"></section>
-            <section id="languages"></section>
-            <section id="get-in-touch"></section>
+            <section id="education" class="section-block"></section>
+            <section id="experience" class="section-block">
+                <div class="content-block wrapper">
+                    <h2 class="section-block__title">Education</h2>
+                    <div class="section-block__txt"> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!</p> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!
+                            Autem cupiditate, temporibus dolore accusantium dicta suscipit sapiente odio nobis eveniet? Cum, ducimus
+                            aperiam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda id rerum aut maxime, quod
+                            ipsam!
+                            Autem cupiditate, temporibus dolore accusantium dicta suscipit sapiente odio nobis eveniet.</p>
+                       
+                       
+                    </div>
+                </div>
+            </section>
+            <section id="languages" class="section-block"></section>
+            <section id="get-in-touch" class="section-block">
+                <div class="content-block wrapper">
+                    <h2 class="section-block__title">Get in touch</h2>
+                    <div class="section-block__links">
+                        <a href="#">
+                            <img src="./imges/icons/instagram.png" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="./imges/icons/discord.png" alt="discord">
+                        </a>
+                        <a href="#">
+                            <img src="./imges/icons/gmail.png" alt="gmail">
+                        </a>
+                        <a href="#">
+                            <img src="./imges/icons/telegram.png" alt="telegram">
+                        </a>
+
+                    </div>
+                   
+                    
+                </div>
+
+            </section>
         </main>
-        <footer></footer>
+        <footer class=" footer wrapper">
+            <a href="#">
+                <img src="./imges/icons/codepen.png" alt="codepen">
+            </a>
+            <a href="#">
+                <img src="./imges/icons/github.png" alt="github">
+            </a>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool">
+            </a>
+        </footer>
     </div>
 
-    <script src="js/main.min.js"></scrip
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

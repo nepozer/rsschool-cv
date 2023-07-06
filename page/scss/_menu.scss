@@ -11,10 +11,10 @@
 }
 
 .menu__btn {
-  @apply fixed top-5 right-5 w-[50px] h-[50px] z-50 flex justify-center items-center cursor-pointer bg-[#99117F] rounded-full lg:hidden;
+  @apply fixed top-5 right-5 w-[50px] h-[50px] z-50 flex justify-center items-center cursor-pointer bg-[#F1219B] rounded-full lg:hidden;
 
   &>span {
-    @apply lg:hidden absolute block w-8 h-0.5 bg-[#fffbff] duration-200 transition-transform after:absolute after:top-2.5 after:block after:w-8 after:h-0.5 after:bg-[#fffbff] after:duration-200 after:transition-transform before:absolute before:-top-2.5 before:block before:w-8 before:h-0.5 before:bg-[#fffbff] before:duration-300 before:transition-transform;
+    @apply lg:hidden absolute block w-6 h-0.5 bg-[#fffbff] duration-200 transition-transform after:absolute after:top-2.5 after:block after:w-6 after:h-0.5 after:bg-[#fffbff] after:duration-200 after:transition-transform before:absolute before:-top-2.5 before:block before:w-6 before:h-0.5 before:bg-[#fffbff] before:duration-300 before:transition-transform;
   }
 }
 

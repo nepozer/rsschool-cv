@@ -13,7 +13,8 @@ module.exports = {
         fontFamily:{
           'sans': ['Work Sans', 'Arial, sans-serif'],
           'pt-sans': ['PT Sans', 'sans-serif ']
-        }
+        },
+        
       },
     },
     plugins: [],

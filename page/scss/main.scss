@@ -47,16 +47,20 @@
     }
     &__links{
         @apply flex flex-wrap gap-10 justify-center items-center lg:justify-around w-full pt-10 lg:pt-20;
+      
         & a{
-            box-shadow: 1px 0px 12px #F1219B;
+            box-shadow: 1px 0px 9px #F1219B;
             @apply flex justify-center justify-self-center items-center p-16 w-[100px] h-[100px] rounded-xl;
             & img{
               @apply  max-w-[60px];
             }
             &:hover{
                 
-                    box-shadow: 1px 0px 6px #F1219B;
+                    box-shadow: 1px 0px 18px #F1219B;
             }
+        } 
+         &--long a{
+            @apply w-full text-[#fffbff] text-xl;
         }
     }
 }
@@ -84,7 +88,7 @@
 }
 
 .content-block{
-    @apply flex flex-col gap-5 items-start pb-12 lg:pb-20 overflow-hidden
+    @apply flex flex-col gap-5 items-start pb-12 lg:pb-20 overflow-hidden relative
 }
 
 .section-block__skills{
